@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1DBF2CA81A4566430063BF10 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DBF2CA71A4566420063BF10 /* Button.swift */; };
+		1DBF2CAA1A45664E0063BF10 /* MainScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DBF2CA91A45664E0063BF10 /* MainScene.swift */; };
+		1DBF2CAC1A4567640063BF10 /* BearImages.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 1DBF2CAB1A4567640063BF10 /* BearImages.atlas */; };
 		98B94DD1DBDB26C6C4520A2F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 860523306E68A93F08F77325 /* libPods.a */; };
 		B61467641A408996000C3550 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61467631A408996000C3550 /* AppDelegate.swift */; };
 		B61467661A408996000C3550 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = B61467651A408996000C3550 /* GameScene.sks */; };
@@ -37,6 +40,9 @@
 
 /* Begin PBXFileReference section */
 		1C0ACBA4A3EB85FCB54AE90C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		1DBF2CA71A4566420063BF10 /* Button.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		1DBF2CA91A45664E0063BF10 /* MainScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScene.swift; sourceTree = "<group>"; };
+		1DBF2CAB1A4567640063BF10 /* BearImages.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = BearImages.atlas; sourceTree = "<group>"; };
 		860523306E68A93F08F77325 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B614675E1A408996000C3550 /* catchRun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = catchRun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B61467621A408996000C3550 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -131,6 +137,9 @@
 				B61467691A408996000C3550 /* GameViewController.swift */,
 				B614676B1A408996000C3550 /* Main.storyboard */,
 				B614676E1A408996000C3550 /* Images.xcassets */,
+				1DBF2CA91A45664E0063BF10 /* MainScene.swift */,
+				1DBF2CA71A4566420063BF10 /* Button.swift */,
+				1DBF2CAB1A4567640063BF10 /* BearImages.atlas */,
 				B61467701A408996000C3550 /* LaunchScreen.xib */,
 				B61467611A408996000C3550 /* Supporting Files */,
 				B68DB23D1A409AD5008DA27D /* catchRun-Bridging-Header.h */,
@@ -263,6 +272,7 @@
 				B63D73721A40AFB00069AB50 /* beep.wav in Resources */,
 				B61467721A408996000C3550 /* LaunchScreen.xib in Resources */,
 				B614676F1A408996000C3550 /* Images.xcassets in Resources */,
+				1DBF2CAC1A4567640063BF10 /* BearImages.atlas in Resources */,
 				B61467661A408996000C3550 /* GameScene.sks in Resources */,
 				B64535611A453220000BBEA3 /* map.tmx in Resources */,
 				B614676D1A408996000C3550 /* Main.storyboard in Resources */,
@@ -317,10 +327,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DBF2CA81A4566430063BF10 /* Button.swift in Sources */,
 				B61467681A408996000C3550 /* GameScene.swift in Sources */,
 				B645355A1A452ACC000BBEA3 /* JSTileMap.m in Sources */,
 				B63D73761A40B1CA0069AB50 /* AudioController.swift in Sources */,
 				B614676A1A408996000C3550 /* GameViewController.swift in Sources */,
+				1DBF2CAA1A45664E0063BF10 /* MainScene.swift in Sources */,
 				B645355D1A452AD7000BBEA3 /* LFCGzipUtility.m in Sources */,
 				B61467641A408996000C3550 /* AppDelegate.swift in Sources */,
 			);
